@@ -110,7 +110,7 @@ async def auto_filter (bot, update):
         
         # Just A Decarator
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < maxp else maxp} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"⭕️ Page 1/{len_result if len_result < maxp else maxp} ⭕️", callback_data="ignore")
         ])
         
         if showInvite:
