@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🤖HOW TO MAKE BOT🤖', url="https://youtu.be/arLXQscl4yo"
+                                    '📀Latest Dvd Updates📀', url="https://t.me/MOVIESCLUB_CLUB_DVD_UPDATES"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developer', url='https://t.me/crizzbizzyt'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/MoviesbizzBotz/Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developer👨‍🔬', url='https://t.me/crizzbizzyt'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/MOVIESCLUBmy/Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support Group🛠', url='https://t.me/moviesbizzbotz')
+        InlineKeyboardButton('Support Group👥', url='https://t.me/MOVIES_CLUB_GROUP_2')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -70,7 +70,7 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Home 🏠', callback_data='start'),
         InlineKeyboardButton('About 🚩', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
