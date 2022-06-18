@@ -64,6 +64,7 @@ OR
 * ->__Your User Session String Obtained From [@PyrogramStringBot](http://www.telegram.dog/PyrogramStringBot)__
 
 * ->__Mongo DB URL Obtained From [Mongo DB](http://www.mongodb.com)__
+* ->__PICS From tg bot__
 
 #### PR's Are Very Welcome
 
