@@ -30,6 +30,10 @@
         "USER_SESSION": {
             "description": "A Pyrogram User Session String. Generated From @PyrogramStringBot",
             "value": ""
+        },
+         "PICS":{
+            "description": "Telegraph links of images to show in start message.",
+            "value":""
         }
     },
     "buildpacks": [
